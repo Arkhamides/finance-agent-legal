@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Finance Agent</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; color: #1a1a1a; background: #fff; max-width: 44rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.8rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .meta { color: #555; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; vertical-align: top; padding: .4rem .6rem .4rem 0; border-bottom: 1px solid #ddd; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Finance Agent · Effective 15 November 2026 · <a href="terms.html">Terms of Service</a></p>
+
+<p>Finance Agent is a private, personal tool. It lets one person, its owner, ask questions over WhatsApp about their own investment, crypto and bank accounts. It is operated by Joe Archondis ("the operator", "I"), an individual, and is not offered to the public. This policy explains what data the service handles and what happens to it.</p>
+
+<h2>Who can use it</h2>
+<p>Only WhatsApp numbers the operator has explicitly allowed (in practice, the operator's own). Messages from any other number are not answered and are not used for anything.</p>
+
+<h2>What data is handled</h2>
+<table>
+<tr><th>Data</th><th>Purpose</th></tr>
+<tr><td>WhatsApp phone number and profile name of the sender</td><td>To check the sender against the allowed list and to reply.</td></tr>
+<tr><td>Message content sent to the service (text, and voice notes, which may be transcribed to text)</td><td>To understand the question and write the answer.</td></tr>
+<tr><td>The operator's own financial account data: balances, positions and transactions read from Interactive Brokers, Binance and Revolut</td><td>To answer the operator's questions. Access is read-only: the service cannot trade, transfer or pay.</td></tr>
+<tr><td>Technical logs (timestamps, delivery status, errors)</td><td>To keep the service working and secure.</td></tr>
+</table>
+<p>The service has no sign-up, no advertising, no analytics and no cookies. Data is never sold and is never used for marketing.</p>
+
+<h2>If you message this number and are not an allowed user</h2>
+<p>Your message is delivered by WhatsApp to the service, which discards it without replying. Your number and message may appear briefly in technical logs and are deleted with them. Nothing else is done with them.</p>
+
+<h2>Who processes the data</h2>
+<p>The data is shared only with the providers needed to run the service:</p>
+<ul>
+<li><strong>Meta (WhatsApp Business Platform)</strong> delivers messages to and from the service.</li>
+<li><strong>Google Cloud</strong> hosts the service and its database, in the European Union.</li>
+<li><strong>A language-model API provider</strong> (currently DeepSeek) receives the conversation and the account data needed to compose each answer.</li>
+<li><strong>ngrok</strong> carries the encrypted webhook traffic between Meta and the service.</li>
+<li><strong>Enable Banking</strong> provides the read-only connection to Revolut, under the account holder's consent.</li>
+</ul>
+<p>Some of these providers process data outside the European Economic Area, under their own terms and safeguards.</p>
+
+<h2>How long data is kept</h2>
+<ul>
+<li>Account snapshots: every snapshot for 48 hours, then one per provider per day.</li>
+<li>Conversation history and the assistant's notes: until the operator deletes them.</li>
+<li>Backups: 14 days.</li>
+<li>Meta keeps messages on its platform according to its own policies.</li>
+</ul>
+
+<h2>Security</h2>
+<p>The service accepts only signed webhook requests from Meta on a single endpoint; nothing else is reachable from the internet. Credentials are held in a secret manager, disks and backups are encrypted at rest, and connections to providers use TLS.</p>
+
+<h2 id="data-deletion">Your rights and data deletion</h2>
+<p>You can ask for access to, correction of, or deletion of any personal data the service holds about you, or object to its processing. Email <a href="mailto:joearchondis@gmail.com">joearchondis@gmail.com</a> from, or stating, the WhatsApp number concerned. Requests are answered within 30 days, and deleted data is removed from backups as they expire (14 days). If you are in the EEA or the UK you may also complain to your data protection authority.</p>
+
+<h2>Changes</h2>
+<p>Changes to this policy are published on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Joe Archondis · <a href="mailto:joearchondis@gmail.com">joearchondis@gmail.com</a></p>
+
+</body>
+</html>
